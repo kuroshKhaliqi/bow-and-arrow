@@ -1,0 +1,27 @@
+The ballon
+    1) Move up and Down
+        position : absolute
+        
+        //check direction
+        top == 0  -> changeDirection()
+        top == viewHeight ->changeDirection()
+        
+        //move
+        if(direction == up){
+             movingDown -> top++
+
+        }else{
+            moveUp -> top--
+        }
+        
+The Arrow
+    1) Move left to right
+        position : absolute
+
+        left: 0
+        mover right->left++
+
+The Player
+    1) Move up and Down
+        position : absolute
+        

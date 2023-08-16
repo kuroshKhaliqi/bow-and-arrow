@@ -1,0 +1,6 @@
+
+Search for setInterval() function   w3school.org
+
+declare a variable to keep count of the Arrows
+    start at 0
+    everytime tha you respawn an arrow add one to 

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.game {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgreen;
+}
+
+.player {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 150px;
+  height: 250px;
+  background-image: url("player.png");
+  background-size: cover;
+}
+
+.arrow {
+  position: absolute;
+  width: 100px;
+  height: 15px;
+  background-image: url("arrow.png");
+  background-size: cover;
+  top: 130px;
+  left: 50px;
+}
+
+.ballon {
+  position: absolute;
+  top: 100px;
+  right: 250px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-image: url("ballon.png");
+  background-size: cover;
+}
+#ballon2 {
+  right: 330px;
+}
+#ballon3 {
+  right: 400px;
+}
+#ballon4 {
+  right: 470px;
+}
+#ballon5 {
+  right: 540px;
+}
+#ballon6 {
+  right: 620px;
+}
+#ballon7 {
+  right: 700px;
+}
+#ballon8 {
+  right: 770px;
+}
+
+.arrow-counter {
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1em;
+}
